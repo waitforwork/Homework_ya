@@ -7,8 +7,6 @@ graph LR;
   modified -- "git add" --> staged;
   staged -- "was changed" --> modified;
 
-%% стрелка без текста для примера: 
-  A --> B;
 ``` 
 =======
 git init — инициализируй директорию для нового проекта;  
